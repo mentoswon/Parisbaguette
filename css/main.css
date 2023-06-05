@@ -1,0 +1,222 @@
+@charset "utf=8"; 
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    color: #333;
+    line-height: 1;
+}
+
+header {
+    background-color: #023586;
+    height:90px;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+header .inner {
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+}
+header .inner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+header .inner nav {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+header .inner nav ul li{
+    display: inline-block;
+    line-height: 90px;
+    padding-right: 24px;
+}
+header .inner nav .left_gnb li:first-of-type {
+    color: #feda24;
+}
+header .inner nav .right_gnb:last-of-type {
+    padding: 0;
+}
+/* 👉⭐ .main_visual*/
+
+.main_visual {
+    width: 100%;
+    height: 793px;
+}
+.main_visual div {
+    display: flex;
+}
+.main_visual .item {
+    margin: 0 auto;
+    width: 640px;
+    height: 793px;
+}
+
+.main_visual .item img {
+    object-fit: cover;
+    display: block;
+}
+
+/* 👉⭐ .magazine*/
+.magazine .inner {
+    width: 1440px;
+    padding-top: 160px;
+    margin: 0 auto;
+}
+.magazine .inner h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.magazine .inner > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.magazine .inner div .item {
+    width: 464px;
+    position: relative;
+
+}
+.magazine .inner div .item img {
+    width: 464px;
+    height: 570px;
+    object-fit: cover;
+}
+.magazine .inner > div .item .over {
+    position: absolute;
+    bottom: 23px;
+    left: 30px;
+    color: #fff;
+}
+.magazine .inner > div .item .over h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.magazine .inner > div .item .over p {
+    line-height: 20px;
+}
+
+/* 👉⭐ .story*/
+.story .inner{
+    width: 1440px;
+    padding-top: 160px;
+    margin: 0 auto;
+}
+.story .inner h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.story .inner img {
+    width: 342px;
+    height: 342px;
+}
+.story .inner .item {
+    margin-bottom: 40px;
+}
+.story .inner div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.story .inner div .item div {
+    display: block;
+    word-break: keep-all;
+    width: 342px;
+    height: 342px;
+    margin-left: 25px;
+}
+
+.story .inner div .item div h5 {
+    font-size: 14px;
+    color: #023586;
+    margin-top: 5px;
+}
+.story .inner div .item div h3 {
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 18px;
+}
+.story .inner div .item div p {
+    line-height: 21px;
+}
+.story .inner div .item div span {
+    display: block;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+/* 👉⭐ .promotion*/
+.promotion .inner{
+    width: 1440px;
+    padding-top: 120px;
+    padding-bottom: 213px;
+    margin: 0 auto;
+}
+.promotion .inner h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.promotion .inner > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.promotion .inner div .item {
+    width: 343px;
+}
+.promotion .inner > div .item > div {
+    word-break: keep-all;
+}
+.promotion .inner div .item img {
+    width: 343px;
+    height: 343px;
+}
+.promotion .inner >  div .item > div > h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    height: 26px;
+}
+.promotion .inner div .item div p {
+    font-size: 14px;
+    margin-top: 45px;
+    color: #797979;
+}
+.promotion .inner div .item span {
+    width: 74px;
+    height: 30px;
+    font-size: 14px;
+    background-color: #023586;
+    color: #fff;
+    display: block;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.promotion .inner div .item:first-of-type {
+    position: relative;
+}
